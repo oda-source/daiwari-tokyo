@@ -10,14 +10,14 @@
     TrelloPowerUp.initialize({
       'board-buttons': function (t, options) {
         return [{
-          icon: './daiwariview4-icon.svg',
-          text: '台割ビュー4',
+          icon: './daiwariviewTK-icon.svg',
+          text: '台割ビュー',
           callback: function (t) {
             // ボタンが押されたら、画面用の daiwariview4.html を開く命令
             return t.modal({
-              url: './daiwariview4.html',
+              url: './daiwariviewTK.html',
               fullscreen: true,
-              title: '【極】台割り配置図'
+              title: '台割り'
             });
           }
         }];
