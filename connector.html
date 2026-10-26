@@ -10,12 +10,12 @@
     TrelloPowerUp.initialize({
       'board-buttons': function (t, options) {
         return [{
-          icon: './daiwariview-toyko-icon.svg',
+          icon: './daiwariview-tokyo-icon.svg',
           text: '台割ビュー',
           callback: function (t) {
             // ボタンが押されたら、画面用の daiwariview-tokyo.html を開く命令
             return t.modal({
-              url: './daiwariview-toyko.html',
+              url: './daiwariview-tokyo.html',
               fullscreen: true,
               title: '台割り'
             });
