@@ -406,7 +406,7 @@
         if (member && member.fullName) currentTrelloUserFullName = member.fullName;
         return t.board('name');
       }).then(function(board) {
-        if (board && board.name) { document.getElementById('boardTitle').innerText = board.name + ' 【極・台割り配置図】'; }
+        if (board && board.name) { document.getElementById('boardTitle').innerText = board.name + ' 【台割り配置図】'; }
         return t.get('board', 'shared', 'customPageCount', '24');
       }).then(function(savedCount) {
         const selectEl = document.getElementById('pageSelect');
